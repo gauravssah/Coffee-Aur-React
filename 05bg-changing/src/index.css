@@ -1,0 +1,33 @@
+.button {
+    text-transform: capitalize;
+    padding: 4px 15px;
+    /* background: red; */
+    outline: none;
+    border-radius: 11px;
+    border: none;
+    box-shadow: 1px 1px wheat;
+    letter-spacing: 2px;
+    margin: 0px 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:active {
+    scale: 0.9;
+}
+
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    background: darkslategrey;
+    padding: 10px 10px;
+    width: 58%;
+    margin: 0% 21%;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 10px;
+}
