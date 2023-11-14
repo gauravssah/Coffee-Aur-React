@@ -8,7 +8,20 @@ function App() {
     if (counter == 20) {
 
     } else {
-      setCounter(counter + 1);
+      // setCounter(counter + 1);   // These all only inc the counter by 1.
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+
+      // We need can use like this for inc by 5 times
+
+      setCounter(perCounter => perCounter + 1);
+      setCounter(perCounter => perCounter + 1);
+      setCounter(perCounter => perCounter + 1);
+      setCounter(perCounter => perCounter + 1);
+      setCounter(perCounter => perCounter + 1);
+
     }
 
   }
