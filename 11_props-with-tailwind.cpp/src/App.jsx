@@ -39,7 +39,8 @@ function App() {
       </h1>
 
       <p className="text-center font-thin mt-2">TechGenius Solutions</p>
-      <div className="container flex gap-5 m-auto mt-5">
+
+      <div className="container flex flex-wrap gap-5 justify-center m-auto mt-5">
         <Cars employee={employee1} />
         <Cars employee={employee2} />
         <Cars employee={employee3} />
