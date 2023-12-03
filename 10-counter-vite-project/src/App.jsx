@@ -14,7 +14,23 @@ function App() {
     if (counter == value) {
       setIncBtnState(true)
     } else {
+
       setCounter(counter + 1);
+
+      // All of these inc the counter by 1 only.
+
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+
+      // If you want to inc the counter by every setCounter, so use this-
+
+      // its inc the counter by - 4 or as many time you use the setCounter by this approch.
+      // setCounter((prevCount) => prevCount + 1)
+      // setCounter((prevCount) => prevCount + 1)
+      // setCounter((prevCount) => prevCount + 1)
+      // setCounter((prevCount) => prevCount + 1)
     }
     if (counter >= 0) {
       setDecBtnState(false)
